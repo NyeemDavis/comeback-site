@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Flex for 1D and Grid for 2D */
+
+body {
+    display: flex;
+    flex-direction: column;
+    max-height: 100vh;
+    font-family: 'Rubik', sans-serif;
+    background-color: beige;
+}
+
+div .page-title {
+    text-align: center;
+    padding: 0 0 15vh 0;
+}
+
+
+.flashcard-link-container {
+    background: rgb(255,180,29);
+    padding: 20vh 20px 20vh 20px;
+    border-radius: 30px;
+    align-self: center;
+    display: flex;
+    width: 65vw;
+    justify-content: space-between;
+    color: white;
+}
+
+.link-container {
+    text-align: center;
+    width: 33%;
+    padding: 5vh 0 5vh 0;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.html-card {
+    background-color: orange;
+}
+
+.css-card {
+    background-color: blue;
+}
+
+.javascript-card {
+    background-color: yellow;
+    color: black;
+}
+
+.card-anchor {
+    border: solid 1px black;
+    width: 50%;
+    align-self: center;
+}
+
+/* Gradient Background */
+/* Hover over animations */
+/* Flashcard icon in middle */
